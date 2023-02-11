@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label, input, textarea {
+    margin-bottom: 10px;
+    width: 100%;    
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #7e7e7e;
+    color: #000000;
+  }
+  #about img{
+    height: 250px; ;
+    width: 160px; 
+  }
+  h1,h2 {text-align: center;}
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+ #jj {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid #000000;
+ }
+
+table,tr,td,th{
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+}  
